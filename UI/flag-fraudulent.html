@@ -1,0 +1,57 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./stylesheets/style.css" />
+    <link rel="stylesheet" href="./stylesheets/dashboard.css" />
+    <link rel="stylesheet" href="./stylesheets/flag-fraudulent.css" />
+    <title>Report an AD as fraudulent</title>
+  </head>
+  <body>
+    <div class="header-container">
+      <div class="automart-container">
+        <div class="header">
+          <a href="./home.html"><h1>auto mart</h1></a>
+        </div>
+        <div class="authentication-container">
+          <a href="#">sign out</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="report-form-container">
+      <div class="report-form">
+        <div class="report-header">
+          <h2>Report AD as Fraudulent</h2>
+        </div>
+
+        <form action="#" method="POST">
+          <div class="report-fraudulent">
+            <div class="paragraph">
+              <p>Why do you think this AD is fraudulent?</p>
+            </div>
+            <div class="textarea">
+              <textarea
+                name="fraud"
+                id="fraud"
+                cols="30"
+                rows="10"
+                placeholder="Your report"
+              ></textarea>
+            </div>
+            <div class="agree">
+              <p><input type="checkbox" name="agree" id="agree" required /></p>
+              <p>
+                I accept that all information provided above is correct
+              </p>
+            </div>
+            <div class="button">
+              <button type="submit">Report</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
