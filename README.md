@@ -1,3 +1,4 @@
 # auto_mart
 
-online shopping market
+This is an online market for buying and selling
+of used and new cars
