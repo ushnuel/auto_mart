@@ -103,3 +103,17 @@ a:hover {
 .required {
   color: red;
 }
+@media all and (max-width: 600px) {
+  .make-model-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .color-type-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .price-year-container {
+    display: flex;
+    flex-direction: column;
+  }
+}

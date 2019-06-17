@@ -64,3 +64,13 @@
 .goto-signin a {
   text-decoration: none;
 }
+@media all and (max-width: 600px) {
+  .name {
+    display: flex;
+    flex-direction: column;
+  }
+  .password-account {
+    display: flex;
+    flex-direction: column;
+  }
+}
