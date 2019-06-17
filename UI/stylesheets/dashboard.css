@@ -1,0 +1,48 @@
+.header a,
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+h4 {
+  color: white;
+  padding: 5px;
+  margin-right: 5px;
+}
+.profile-container {
+  display: flex;
+  margin: 10px;
+}
+.my-cars-profile-container {
+  display: flex;
+  flex-direction: column;
+}
+.on-hover-appear {
+  flex-direction: column;
+  padding: 3px;
+  display: none;
+  box-shadow: 0 5px 10px 0 rgba(14, 13, 13, 0.2);
+}
+.on-hover-appear a {
+  text-transform: capitalize;
+}
+.my-posted-cars {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  margin: 10px;
+  padding: 5px;
+}
+.mark-sold {
+  display: flex;
+}
+.well-car-container {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.well button {
+  font-size: 13px;
+  font-weight: bold;
+}

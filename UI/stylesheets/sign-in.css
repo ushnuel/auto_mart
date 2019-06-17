@@ -1,0 +1,68 @@
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.sign-in-header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(115, 177, 123);
+}
+.sign-in-header {
+  display: flex;
+  margin: 20px;
+}
+.sign-in-header h2 {
+  text-transform: capitalize;
+}
+.sign-in-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.auto-mart-header {
+  margin-top: 40px;
+  text-transform: capitalize;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  width: 300px;
+  border-radius: 5px;
+}
+.sign-in-email {
+  display: flex;
+  flex-direction: column;
+}
+.sign-in-password {
+  display: flex;
+  flex-direction: column;
+}
+.forgot-password {
+  text-align: center;
+  margin: 2px;
+}
+.sign-in-submit {
+  display: flex;
+  flex-direction: column;
+}
+.sign-in-submit button {
+  font-size: 17px;
+  font-weight: bold;
+}
+.goto-sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  margin: 8px;
+}

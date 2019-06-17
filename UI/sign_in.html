@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./stylesheets/style.css" />
+    <link rel="stylesheet" href="./stylesheets/sign-in.css" />
+    <title>Sign in to Auto Mart</title>
+  </head>
+  <body>
+    <div class="sign-in-header-container">
+      <div class="sign-in-header">
+        <h2>sign in to your account</h2>
+      </div>
+    </div>
+
+    <div class="sign-in-form-container">
+      <div class="auto-mart-header">
+        <a href="./home.html"
+          ><em><h1>auto mart</h1></em></a
+        >
+      </div>
+      <div class="form-container">
+        <form action="./home.html" method="POST">
+          <div class="sign-in-email">
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+              required
+            />
+          </div>
+          <div class="sign-in-password">
+            <input
+              type="text"
+              name="password"
+              id="password"
+              placeholder="Password"
+              required
+            />
+          </div>
+          <div class="forgot-password">
+            <h4><a href="#">Forgot Password?</a></h4>
+          </div>
+          <div class="sign-in-submit">
+            <button type="submit">Sign In</button>
+          </div>
+          <div class="goto-sign-up">
+            <h4>
+              don't have account? <a href="./sign_up.html">create account</a>
+            </h4>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./../stylesheets/style.css" />
+    <link rel="stylesheet" href="./../stylesheets/post-car.css" />
+    <title>Post a car | Auto Mart</title>
+  </head>
+  <body>
+    <div class="post-car-header-container">
+      <div class="auto-mart-header-container">
+        <div class="auto-mart-header">
+          <h1><a href="./home.html">auto mart</a></h1>
+        </div>
+        <div class="auth-header">
+          <a href="#">SIGN OUT</a>
+        </div>
+      </div>
+
+      <div class="post-car-header">
+        <h1>Post a New Car</h1>
+      </div>
+    </div>
+
+    <div class="post-car-form-container">
+      <form action="#" method="POST">
+        <div class="post-car-form">
+          <div class="make-model-container">
+            <div class="make-label">
+              <label for="make">Car Make <span class="required">*</span></label>
+              <input
+                type="text"
+                name="make"
+                id="make"
+                placeholder="eg: Toyota"
+                required
+              />
+            </div>
+            <div class="model-label">
+              <label for="model"
+                >Car Model <span class="required">*</span></label
+              >
+              <input
+                type="text"
+                name="model"
+                id="model"
+                placeholder="eg: Avalon"
+                required
+              />
+            </div>
+          </div>
+          <div class="price-year-container">
+            <div class="price-label">
+              <label for="price"
+                >Price (₦) <span class="required">*</span></label
+              >
+              <input
+                type="number"
+                name="price"
+                id="price"
+                placeholder="Price in (₦)"
+                required
+              />
+            </div>
+            <div class="year-label">
+              <label for="year">Year <span class="required">*</span></label>
+              <input
+                type="number"
+                name="year"
+                id="year"
+                placeholder="eg: 2018"
+                required
+                min="2000"
+              />
+            </div>
+          </div>
+          <div class="textarea-car">
+            <textarea
+              name="description"
+              id="description"
+              cols="30"
+              rows="10"
+              placeholder="describe the car momentarilary"
+              required
+            ></textarea>
+          </div>
+          <div class="color-type-container">
+            <div class="color-label">
+              <label for="color">Color</label>
+              <input
+                type="text"
+                name="color"
+                id="color"
+                placeholder="eg: Garri Yellow"
+              />
+            </div>
+            <div class="type-label">
+              <label for="type"
+                >Type of Car <span class="required">*</span></label
+              >
+              <input
+                type="text"
+                name="type"
+                id="type"
+                placeholder="eg: Bus or Lorry"
+              />
+            </div>
+          </div>
+          <div class="car-image">
+            <input type="file" name="image" id="image" required />
+          </div>
+          <div class="post-car-submit">
+            <button type="submit">POST</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

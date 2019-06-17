@@ -1,0 +1,52 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./stylesheets/style.css" />
+    <link rel="stylesheet" href="./stylesheets/dashboard.css" />
+    <link rel="stylesheet" href="./stylesheets/car-edit.css" />
+    <title>Edit car price | Auto Mart</title>
+  </head>
+  <body>
+    <div class="header-container">
+      <div class="automart-container">
+        <div class="header">
+          <a href="./home.html"><h1>auto mart</h1></a>
+        </div>
+        <div class="authentication-container">
+          <a href="#">sign out</a>
+        </div>
+      </div>
+      <div class="edit-car-container">
+        <h2>Edit the price of the car</h2>
+      </div>
+    </div>
+
+    <div class="price-edit-form">
+      <form action="#" method="POST">
+        <div class="price-edit-form-container">
+          <div class="old-price">
+            <label for="old-price">Old Price</label>
+            <input
+              type="text"
+              name="old-price"
+              id="old-price"
+              value="$ 2,200,000"
+            />
+          </div>
+          <div class="new-price">
+            <label for="new-price">New Price</label>
+            <input
+              type="text"
+              name="new-price"
+              id="new-price"
+              placeholder="Enter new price"
+            />
+          </div>
+          <button type="submit">Change Price</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

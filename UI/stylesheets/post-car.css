@@ -1,0 +1,105 @@
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.post-car-header-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background: rgb(76, 184, 76);
+}
+.auto-mart-header-container {
+  display: flex;
+  padding: 5px;
+}
+.auto-mart-header {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  text-transform: uppercase;
+}
+.auth-header {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+.auth-header a {
+  color: white;
+}
+.post-car-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  color: white;
+}
+.post-car-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+.post-car-form {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 6px 12px 1px rgba(3, 3, 3, 0.2);
+}
+.make-model-container {
+  display: flex;
+  margin: 5px;
+}
+.make-label {
+  display: flex;
+  flex-direction: column;
+}
+.model-label {
+  display: flex;
+  flex-direction: column;
+}
+.price-year-container {
+  display: flex;
+  margin: 5px;
+}
+.color-type-container {
+  display: flex;
+  margin: 5px;
+}
+.color-label {
+  display: flex;
+  flex-direction: column;
+}
+.type-label {
+  display: flex;
+  flex-direction: column;
+}
+.price-label {
+  display: flex;
+  flex-direction: column;
+}
+.year-label {
+  display: flex;
+  flex-direction: column;
+}
+.textarea-car {
+  display: flex;
+  flex-direction: column;
+}
+.car-image {
+  display: flex;
+  flex-direction: column;
+}
+.post-car-submit {
+  display: flex;
+  flex-direction: column;
+}
+.post-car-submit button {
+  font-size: 16px;
+  font-weight: 700;
+}
+.required {
+  color: red;
+}

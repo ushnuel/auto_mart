@@ -1,0 +1,96 @@
+a,
+a:hover {
+  text-decoration: none;
+}
+h1 {
+  text-transform: capitalize;
+}
+.car-detail-header-container {
+  display: flex;
+  flex-direction: column;
+  background: rgb(72, 161, 72);
+}
+.car-detail-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.auto-mart-car-detail {
+  padding: 5px;
+  margin: 5px;
+}
+.car-detail-container {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+}
+.car-specifications {
+  display: flex;
+  padding: 5px;
+  justify-content: flex-start;
+}
+.car-specs-table {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 7px 12px 0 rgba(17, 17, 17, 0.2);
+}
+td {
+  padding: 8px 10px;
+}
+tr {
+  margin: 2px;
+}
+.car-detail-box {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px 40px;
+  justify-content: flex-end;
+  width: 100%;
+  flex-wrap: wrap;
+  box-shadow: 0 7px 12px 0 rgba(17, 17, 17, 0.2);
+  border-radius: 5px;
+}
+.cart-fraudulent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart-fraudulent button {
+  font-size: 16px;
+  font-weight: bold;
+}
+.similar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 15px 7px 5px 5px;
+}
+.well button {
+  font-size: 16px;
+  font-weight: bold;
+}
+@media all and (max-width: 600px) {
+  .car-detail-box {
+    width: 95%;
+    margin: 5px;
+  }
+  .car-detail-box img {
+    width: 100%;
+  }
+  .car-detail-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .car-specifications {
+    width: 100%;
+  }
+  .car-specs-table {
+    width: 100%;
+  }
+}
