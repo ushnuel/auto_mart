@@ -1,0 +1,53 @@
+.report-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 40px;
+}
+.paragraph {
+  display: flex;
+  flex-direction: column;
+}
+.textarea {
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.button button {
+  font-size: 15px;
+  font-weight: bold;
+}
+.report-header {
+  background: green;
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.report-header h2 {
+  color: white;
+}
+.report-form {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.agree {
+  display: flex;
+}
+.agree input {
+  margin: 0;
+}
+.agree p {
+  margin-left: 5px;
+  padding: 0;
+}
+.report-fraudulent {
+  padding: 10px;
+}
