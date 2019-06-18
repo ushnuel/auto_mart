@@ -1,0 +1,19 @@
+{
+  "name": "auto_mart",
+  "version": "1.0.0",
+  "description": "This is an online market for buying and selling of used and new cars",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ushnuel/auto_mart.git"
+  },
+  "author": "Emmanuel Chinazom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ushnuel/auto_mart/issues"
+  },
+  "homepage": "https://github.com/ushnuel/auto_mart#index.html"
+}
