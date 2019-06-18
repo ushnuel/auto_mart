@@ -4,7 +4,7 @@
   "description": "This is an online market for buying and selling of used and new cars",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
